@@ -2,7 +2,7 @@
 
 **Awesome Op Stack** is a list of Op Stack modifications.
 
-## Op Stack Official Links
+### Op Stack Official Links
 
 + [Op Stack Codebase](https://github.com/ethereum-optimism/optimism)
 + [Introduction to OP Stack Hacks](https://stack.optimism.io/docs/build/hacks/): detailed guide on how to "mess around" with the OP Stack. 
