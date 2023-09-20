@@ -10,14 +10,14 @@
 
 ### Modifications
 
-- **[Op Stack Hyperlane](https://github.com/AlexBHarley/op-stack-hyperlane)**: An OP Stack Mod that bundles a Hyperlane ⏩ deployment into your L2. With Hyperlane now a core part your L2 you benefit from:
--opt in fast token withdrawals 🔥
-- predeployed Mailbox's and associated ISMs
-    - L1 => L2 leverages an Optimism ISM that maintains the security of Ethereum
-    - L2 => L1 configured with an M of N multisig
-- default relayer and validator infrastructure
-
 - **[Op Stack Hooks](https://github.com/AlexBHarley/op-stack-hooks)**: An OP Stack Mod for adding customisable transaction hooks to your OP Stack chain. Hook registration is permissioned in this mod, meaning hook registration is priviledged and only rollup deployers can add these.
+
+- **[Op Stack Hyperlane](https://github.com/AlexBHarley/op-stack-hyperlane)**: An OP Stack Mod that bundles a Hyperlane ⏩ deployment into your L2. With Hyperlane now a core part your L2 you benefit from:
+    - opt in fast token withdrawals 🔥
+    - predeployed Mailbox's and associated ISMs
+        - L1 => L2 leverages an Optimism ISM that maintains the security of Ethereum
+        - L2 => L1 configured with an M of N multisig
+    - default relayer and validator infrastructure
 
 - **[PBS on Optimism](https://github.com/NethermindEth/optimism/pull/5)**: Changes needed on OP stack to integrate mev-boost implementation of Proposer Builder Separation protocol. [More info](https://gov.optimism.io/t/optimism-pbs-proof-of-concept/6718).
 
